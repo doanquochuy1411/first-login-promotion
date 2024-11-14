@@ -39,10 +39,10 @@ bash
 
 2. **Tạo tệp `dev.env`:**  
    Tạo tệp có tên `dev.env` trong thư mục gốc của dự án và thêm các giá trị sau:
-   
-SERVER_ADDRESS = your_host
-DB_SOURCE = postgres://username:password@localhost:5432/your_database_name
-API_KEY = your_api_key
+<br>
+SERVER_ADDRESS = your_host<br>
+DB_SOURCE = postgres://username:password@localhost:5432/your_database_name<br>
+API_KEY = your_api_key<br>
 
 
 Thay thế username, password, và your_database_name bằng thông tin kết nối của bạn.
