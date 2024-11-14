@@ -78,3 +78,11 @@ Thông Báo Người Dùng:
 Thông báo cho người dùng khi họ nhận được voucher thành công.
 Gửi nhắc nhở cho người dùng trước khi voucher hết hạn, khuyến khích họ sử dụng voucher trước khi nó hết hạn.
 Bằng cách tập trung vào các cải tiến này, bạn có thể tạo ra một hệ thống chiến dịch khuyến mãi hiệu quả và thân thiện với người dùng cho ứng dụng Trinity, giúp tăng cường sự tham gia của người dùng và thu hút thêm nhiều đăng ký cho gói đăng ký Silver.
+
+
+**DB DIAGRAM FOR CAMPAIGN MODULE**
+![db diagram for ampaign module](public/db_diagram.png)
+
+**SYSTEM DESIGN DIAGRAM**
+![SYSTEM DESIGN DIAGRAM](public/system_design_diagram.png)
+
