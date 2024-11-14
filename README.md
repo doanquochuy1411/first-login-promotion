@@ -40,20 +40,19 @@ bash
 2. **Tạo tệp `dev.env`:**  
    Tạo tệp có tên `dev.env` trong thư mục gốc của dự án và thêm các giá trị sau:
 <br>
-SERVER_ADDRESS = your_host<br>
+SERVER_ADDRESS = localhost:8080<br>
 DB_SOURCE = postgres://username:password@localhost:5432/your_database_name<br>
 API_KEY = your_api_key<br>
 
-
+<br><br><br>
 Thay thế username, password, và your_database_name bằng thông tin kết nối của bạn.
-
-Chạy Ứng Dụng:
-
+<br>
+**Chạy Ứng Dụng:**
 Đảm bảo tất cả các phụ thuộc đã được cài đặt và cấu hình (ví dụ: Gin, PostgreSQL driver cho Go).
 Chạy ứng dụng Go:
 bash
 Sao chép mã
-go run main.go
+ - go run main.go
 Ứng dụng sẽ chạy cục bộ trên http://localhost:8080.
 Cải Tiến Cho Hệ Thống Chiến Dịch Khuyến Mãi
 Để thiết kế và triển khai hệ thống chiến dịch khuyến mãi cho ứng dụng Trinity, có thể thực hiện những cải tiến sau:
